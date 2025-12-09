@@ -1,4 +1,3 @@
-import { Suspense } from "react";
 import CacheTestComponent from "./cache-test-component";
 import { cacheLife } from "next/cache";
 
