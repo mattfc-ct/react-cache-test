@@ -1,6 +1,6 @@
 import CacheTestComponent from "./cache-test-component";
 
-export default async function UncachedTestComponent() {
+export default function UncachedTestComponent() {
     return (
         <CacheTestComponent name="uncached"/>
     );
