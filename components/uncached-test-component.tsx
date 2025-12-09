@@ -4,8 +4,6 @@ import { connection } from "next/server";
 
 export default async function UncachedTestComponent() {
     return (
-        <Suspense>
-            <CacheTestComponent />
-        </Suspense>
+        <CacheTestComponent name="uncached"/>
     );
 };

@@ -1,7 +1,7 @@
 import { cache } from "react";
 
-export const cacheTest = cache(() => {
-    console.log("Running cacheTest function");
+export const cacheTest = cache((key: string) => {
+    console.log("Running cacheTest function for key", key);
 
     return "test";
 });
